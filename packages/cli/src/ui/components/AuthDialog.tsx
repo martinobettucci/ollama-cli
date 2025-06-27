@@ -35,6 +35,7 @@ export function AuthDialog({
     },
     { label: 'Gemini API Key (AI Studio)', value: AuthType.USE_GEMINI },
     { label: 'Vertex AI', value: AuthType.USE_VERTEX_AI },
+    { label: 'Ollama (local)', value: AuthType.USE_OLLAMA },
   ];
 
   let initialAuthIndex = items.findIndex(
